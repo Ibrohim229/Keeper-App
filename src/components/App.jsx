@@ -22,7 +22,10 @@ function App() {
       <CreateArea
         onAdd={addNote}
       />
-      <Note key={1} title="Note title" content="Note content" />
+      {notes.map((noteItem) => {
+        return <Note key={1} title={noteItem.title} content={noteItem.content} />
+      })}
+
       <Footer />
     </div>
   );
