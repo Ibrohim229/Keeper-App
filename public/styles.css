@@ -93,6 +93,9 @@ form.create-note button {
   background: #f5ba13;
   color: #fff;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   width: 36px;
   height: 36px;
